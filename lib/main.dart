@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:zigsaw/screens/home_screen.dart';
 import 'package:zigsaw/screens/login_screen.dart';
 
 void main() {
@@ -17,8 +16,6 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: LoginScreen(),
-      // home: HomePage(),
-      // home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }
